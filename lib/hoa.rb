@@ -13,6 +13,7 @@ def add_character(show, name)
   name = "Dave"
   show = [:chipmunks]
   add_character = BASE_HOA(show, name)
+  return BASE_HOA
   
   
   
