@@ -9,11 +9,7 @@ def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
   
-  #BASE_HOA[:chipmunks] << "Dave"
-  name = "Dave"
-  local_copy_of_HOA = BASE_HOA.dup
-  local_copy_of_HOA[:chipmunks] = name
-  return local_copy_of_HOA
+  BASE_HOA[:chipmunks] << "Dave"
   
   
   
