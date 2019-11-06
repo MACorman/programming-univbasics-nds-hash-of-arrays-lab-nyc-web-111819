@@ -11,8 +11,8 @@ def add_character(show, name)
   
   #BASE_HOA[:chipmunks] << "Dave"
   name = "Dave"
-  show = [:chipmunks]
-  add_character = BASE_HOA(show, name)
+  local_copy_of_HOA = BASE_HOA.dup
+  add_character = local_copy_of_HOA(show
   return BASE_HOA
   
   
