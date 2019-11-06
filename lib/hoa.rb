@@ -11,7 +11,8 @@ def add_character(show, name)
   
   #BASE_HOA[:chipmunks] << "Dave"
   name = "Dave"
-  add_character = BASE_HOA[:chipmunks]name
+  show = [:chipmunks]
+  add_character = BASE_HOA(show, name
   
   
   
